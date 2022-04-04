@@ -40,9 +40,16 @@ const createSlide = () => {
   /* adding slide effects */
 
   if (sliders.length) {
-    sliders[0].style.marginLeft =
-      "calc(-${100 * (sliders.lenght - 2)} - ${30 * (sliders.length - 2)}px)";
+    sliders[0].style.marginLeft = `calc(-${100 * (sliders.length - 2)}% - ${
+      30 * (sliders.length - 2)
+    }px)`;
   }
 };
 
-createSlide();
+for (let i = 0; i < 3; i++) {
+  createSlide();
+}
+
+setInterval(() => {
+  /* createSlide(); */
+}, 3000);
