@@ -303,3 +303,37 @@ body {
     color: #fff;
     background: rgba(255, 255, 255, 0.1);
 }
+
+.pre-btn,
+.nxt-btn{
+   position: absolute;
+   top: 0;
+   width: 5%;
+   height: 100%;
+   z-index: 2;
+   border: none;
+   cursor: pointer;
+   outline: none; 
+}
+
+.pre-btn{
+    left: 0;
+    background: linear-gradient(to right, #0c111b 0%, #0c111b00);
+}
+
+.nxt-btn{
+    right: 0;
+    background: linear-gradient(to left, #0c111b 0%, #0c111b00);
+}
+
+.pre-btn img,
+.nxt-btn img{
+    width: 15px;
+    height: 20px;
+    opacity: 0;
+}
+
+.pre-btn:hover img,
+.nxt-btn:hover img{
+    opacity: 1;
+}
