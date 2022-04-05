@@ -4,7 +4,7 @@ TV shows and movies.
 
 Click demo to try it by yourself!
 
-## Hulu Clone Demo Link
+## Disney-Plus-Clone Demo Link
 
 You can view the site here
 [Click Me](https://ozngrsc.github.io/Disney-Plus-Clone/)
